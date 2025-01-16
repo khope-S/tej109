@@ -6,25 +6,28 @@ tags: [Vending Machine, Midterm, TEJ20R]
 pin: false
 ---
 
-![Vendingmachine](https://github.com/user-attachments/assets/cf389e08-7e82-4ec8-877b-a53acc4cf320)
-Vending Machine Final Product
+![Final Vending Machine](https://github.com/user-attachments/assets/cf389e08-7e82-4ec8-877b-a53acc4cf320)
+*Final Vending Machine Product*
 
 # Function:
 ### The function of this project is to dispense candy and chocolates from a vending machine.
+
 # Explanation
-So my project is a simple 3 product vending machine. In this project the goal is to press a code E.g. A1, A2), and then to input some money into the machine. Then this machine will output a product. If more than 2 buttons are pressed at one timer then the program will shut down. If only the code is typed and no money is inputted then the program will not run. Both the money and the code need to be inputted for the system to work. Then the first breadboard will feed into a NAND gate. As the NAND gates provide a mostly high output to a NPN transistor, the 555 timer remains reset as it is grounded. However if the NAND gate provides a LOW output, then the 555 timer will not be grounded  to turn it ON
+This project is a simple 3-product vending machine. Users input a code (e.g., A1, A2) and insert money to receive a product. If multiple buttons are pressed simultaneously, the program shuts down. Both code and money are required for the system to operate. 
+
+The first breadboard feeds into a NAND gate. NAND gates provide a mostly HIGH output to an NPN transistor, keeping the 555 timer reset. If the NAND gate outputs LOW, the 555 timer activates.
 
 ## Inputs
-My inputs are the code that you need to put in and then a card needs to be entered which would press a button. These inputs will all be button switches
+- The inputs are button switches for the code and a card input.
 
 ## Outputs
-My output for this project is the 3 servo motors, connected to metal wires, which spin clockwise to make the product drop.
+- Outputs include three servo motors connected to metal wires, spinning clockwise to dispense products.
 
 # Circuit Diagram
-![FINAL MIDTERN REAL WORLD PROJECT](https://github.com/user-attachments/assets/09c4a6b2-43b6-485f-8743-859ebcb2149a)
+![Circuit Diagram](https://github.com/user-attachments/assets/09c4a6b2-43b6-485f-8743-859ebcb2149a)
 
 # Back Wiring
-![1736260442650 (1)](https://github.com/user-attachments/assets/f8e6aa3e-175a-4fab-9e99-13184f32aca6)
+![Back Wiring](https://github.com/user-attachments/assets/f8e6aa3e-175a-4fab-9e99-13184f32aca6)
 
 # Logic Diagram
-<img width="504" alt="LOGICDIAGRM1" src="https://github.com/user-attachments/assets/fd1fc8bc-e0c7-46dd-87d8-d95fb2bcc7d5" />
+![Logic Diagram](https://github.com/user-attachments/assets/fd1fc8bc-e0c7-46dd-87d8-d95fb2bcc7d5)
